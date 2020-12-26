@@ -1,0 +1,37 @@
+a:visited {
+  color: white;
+}
+.navBarWrapper {
+  height: 15vh;
+  width: 100%;
+  position: absolute;
+  text-align: center;
+  padding-top: 20px;
+  box-sizing: border-box;
+  background-color: transparent;
+  min-width: 1000px;
+}
+
+.navBar {
+  margin: 0;
+}
+
+.navBar > * {
+  display: inline;
+  padding-right: 10px;
+  padding-left: 10px;
+  color: white;
+  font-size: large;
+}
+
+.navBar > *:hover {
+  opacity: 50%;
+}
+
+.navBar > *:active {
+  color: white;
+}
+
+.navBar > *:focus {
+  color: white;
+}

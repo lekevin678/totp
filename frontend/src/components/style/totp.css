@@ -1,0 +1,186 @@
+* {
+  font-family: "Roboto";
+}
+.totpBody {
+  height: 100vh;
+  padding-top: 15vh;
+  box-sizing: border-box;
+  min-width: 800px;
+  background-image: url(./background.png);
+  background-size: cover;
+  z-index: 3;
+  min-width: 1000px;
+  min-height: 550px;
+}
+.codeTable {
+  width: 100%;
+  height: 40%;
+  position: relative;
+}
+
+.codeTable > * {
+  text-align: center;
+  color: white;
+}
+
+.codeHeading {
+  height: 30%;
+  font-size: 32px;
+}
+
+.codeHeading th:first-child {
+  font-size: 24px;
+}
+
+.codeHeading th:last-child {
+  font-size: 24px;
+}
+
+.codeCode {
+  position: relative;
+  font-size: 64px;
+}
+
+.codeCode td:first-child {
+  font-size: 48px;
+}
+
+.codeCode td:last-child {
+  font-size: 48px;
+}
+
+.infoBody {
+  height: 60%;
+  padding-bottom: 0;
+  position: relative;
+}
+
+.infoLeft {
+  height: 100%;
+  width: 50%;
+  text-align: center;
+  padding-top: 5%;
+  float: left;
+  background-color: white;
+  box-sizing: border-box;
+  position: relative;
+  z-index: 2;
+}
+
+.secretReqs {
+  width: 80%;
+  text-align: left;
+  margin: auto;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  font-weight: 700;
+}
+
+.secretReqs > * {
+  margin-bottom: 5px;
+}
+
+.valid {
+  border-color: green;
+}
+
+.fontValid {
+  color: green;
+}
+
+.notValid {
+  border-color: red;
+}
+
+.fontNotValid {
+  color: red;
+}
+
+input {
+  width: 80%;
+  height: 2em;
+  line-height: 2em;
+  border-width: 0 0 2px;
+  outline: none;
+  font-size: 16px;
+  padding-right: 20px;
+}
+
+.emailInput {
+  margin-bottom: 50px;
+}
+
+#generateButton {
+  margin-bottom: 20px;
+}
+
+.infoRight {
+  width: 100%;
+  padding-left: 50%;
+  min-height: 100%;
+  max-height: 100%;
+  padding: 40px;
+  padding-left: 50%;
+  padding-bottom: 0;
+  padding-top: 1.5%;
+  box-sizing: border-box;
+  background-color: #f2f2f2;
+  position: relative;
+  z-index: 1;
+}
+
+.infoRight > * {
+  color: #4f4f4f;
+}
+.qrCodeWrapper {
+  height: 80%;
+  width: 25%;
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  box-sizing: border-box;
+  max-height: 350px;
+  max-width: 350px;
+}
+
+#qrcode > svg {
+  height: 80%;
+  width: 80%;
+}
+
+.currentTitle {
+  text-align: center;
+  top: 0;
+  margin: auto;
+  font-size: 32px;
+  margin-bottom: 15px;
+  font-weight: 700;
+  font-stretch: extra-expanded;
+}
+
+.currentInfo {
+  margin-left: 20px;
+  width: 45%;
+  word-wrap: break-word;
+}
+
+.currentEmail {
+  margin-bottom: 30px;
+}
+
+.currentInfoTitle {
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.fa-chevron-left {
+  margin: 0;
+  position: absolute;
+  top: 50%;
+  -ms-transform: translateY(-100%);
+  transform: translateY(-120%);
+
+  left: 10px;
+  z-index: 4;
+  color: white;
+}
